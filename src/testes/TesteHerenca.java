@@ -1,8 +1,8 @@
-package main;
+package testes;
 
 import herença.*;
 
-public class Main {
+public class TesteHerenca {
 	public static void main(String[] args) {
 		Progressao progressao;
 		System.out.println("Progressão Aritimética com razão padrão:");
