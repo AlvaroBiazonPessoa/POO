@@ -7,7 +7,7 @@ import java.util.List;
 public class GerenciadorPessoasImpl implements GerenciadorPessoas {
 	private List<Pessoa> pessoas = new ArrayList<Pessoa>();
 	@Override
-	public List<Pessoa> obeterPessoa() {
+	public List<Pessoa> obterPessoa() {
 		return pessoas;
 	}
 
