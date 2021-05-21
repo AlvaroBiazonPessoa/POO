@@ -5,6 +5,8 @@ import herença.*;
 public class TesteHerenca {
 	public static void main(String[] args) {
 		Progressao progressao;
+		
+		//Testa ProgressaoAritimetica
 		System.out.println("Progressão Aritimética com razão padrão:");
 		progressao = new ProgressaoAritmetica();
 		progressao.printProgressao(10);
@@ -12,6 +14,7 @@ public class TesteHerenca {
 		progressao = new ProgressaoAritmetica(5);
 		progressao.printProgressao(10);
 		
+		//Testa ProgressaoGeometrica
 		System.out.println("Progressaão Geométrica com razão padrão:");
 		progressao = new ProgressaoGeometrica();
 		progressao.printProgressao(10);
