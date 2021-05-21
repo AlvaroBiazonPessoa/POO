@@ -21,6 +21,14 @@ public class TesteHerenca {
 		System.out.println("Progressão Geométrica com razão 3");
 		progressao = new ProgressaoGeometrica(3);
 		progressao.printProgressao(10);
+		
+		//Testa ProgressaoFibonacci
+		System.out.println("Progressão Fibonacci com valores default: ");
+		progressao = new ProgressaoFibonacci();
+		progressao.printProgressao(10);
+		System.out.println("Progresão Fibonacci com valores 4 e 6:  ");
+		progressao = new ProgressaoFibonacci(4, 6);
+		progressao.printProgressao(10);
 	}
 
 }
